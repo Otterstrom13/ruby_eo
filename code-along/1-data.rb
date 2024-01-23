@@ -17,3 +17,9 @@
 # Combine strings and variables
 
 # String manipulation
+
+#put the number 2 on screen
+puts 2
+
+#put the sum of 5 and 2 on screen
+puts 5+2
