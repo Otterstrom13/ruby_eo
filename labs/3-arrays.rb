@@ -15,3 +15,22 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#Create two shopping lists
+my_shopping_list = ["milk","eggs","beer"]
+claudia_shopping_list = ["beer","cookies","apples"]
+
+#Combine them into a single list
+combined_list = my_shopping_list + claudia_shopping_list
+
+#remove non-unique items
+unique_list = combined_list.uniq 
+
+puts unique_list.size
+
+#sort alphabetically
+sorted_list = unique_list.sort
+
+puts sorted_list
+
+
